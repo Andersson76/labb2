@@ -1,0 +1,21 @@
+2022-04-25T09:31:08+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_total() on null in /Applications/MAMP/htdocs/inlamning2/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-button/src/Assets/SmartButton.php:1127
+Stack trace:
+#0 /Applications/MAMP/htdocs/inlamning2/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-button/src/Assets/SmartButton.php(378): WooCommerce\PayPalCommerce\Button\Assets\SmartButton->is_cart_price_total_zero()
+#1 /Applications/MAMP/htdocs/inlamning2/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-button/src/Assets/SmartButton.php(195): WooCommerce\PayPalCommerce\Button\Assets\SmartButton->render_button_wrapper_registrar()
+#2 /Applications/MAMP/htdocs/inlamning2/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-button/src/ButtonModule.php(56): WooCommerce\PayPalCommerce\Button\Assets\SmartButton->render_wrapper()
+#3 /Applications/MAMP/htdocs/inlamning2/wp-includes/class-wp-hook.php(307): WooCommerce\PayPalCommerce\Button\ButtonModule::WooCommerce\PayPalC i /Applications/MAMP/htdocs/inlamning2/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-button/src/Assets/SmartButton.php på rad 1127
+
+2022-04-25T09:33:46+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_total() on null in /Applications/MAMP/htdocs/inlamning2/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-button/src/Assets/SmartButton.php:1127
+Stack trace:
+#0 /Applications/MAMP/htdocs/inlamning2/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-button/src/Assets/SmartButton.php(378): WooCommerce\PayPalCommerce\Button\Assets\SmartButton->is_cart_price_total_zero()
+#1 /Applications/MAMP/htdocs/inlamning2/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-button/src/Assets/SmartButton.php(195): WooCommerce\PayPalCommerce\Button\Assets\SmartButton->render_button_wrapper_registrar()
+#2 /Applications/MAMP/htdocs/inlamning2/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-button/src/ButtonModule.php(56): WooCommerce\PayPalCommerce\Button\Assets\SmartButton->render_wrapper()
+#3 /Applications/MAMP/htdocs/inlamning2/wp-includes/class-wp-hook.php(307): WooCommerce\PayPalCommerce\Button\ButtonModule::WooCommerce\PayPalC i /Applications/MAMP/htdocs/inlamning2/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-button/src/Assets/SmartButton.php på rad 1127
+
+2022-04-25T11:59:23+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_total() on null in /Applications/MAMP/htdocs/inlamning2/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-button/src/Assets/SmartButton.php:1127
+Stack trace:
+#0 /Applications/MAMP/htdocs/inlamning2/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-button/src/Assets/SmartButton.php(378): WooCommerce\PayPalCommerce\Button\Assets\SmartButton->is_cart_price_total_zero()
+#1 /Applications/MAMP/htdocs/inlamning2/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-button/src/Assets/SmartButton.php(195): WooCommerce\PayPalCommerce\Button\Assets\SmartButton->render_button_wrapper_registrar()
+#2 /Applications/MAMP/htdocs/inlamning2/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-button/src/ButtonModule.php(56): WooCommerce\PayPalCommerce\Button\Assets\SmartButton->render_wrapper()
+#3 /Applications/MAMP/htdocs/inlamning2/wp-includes/class-wp-hook.php(307): WooCommerce\PayPalCommerce\Button\ButtonModule::WooCommerce\PayPalC i /Applications/MAMP/htdocs/inlamning2/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-button/src/Assets/SmartButton.php på rad 1127
+

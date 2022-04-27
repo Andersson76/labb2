@@ -1,0 +1,8 @@
+2022-04-27T08:23:29+00:00 CRITICAL Cannot redeclare under_text() (previously declared in /Applications/MAMP/htdocs/inlamning2/wp-content/themes/storefront-child/functions.php:19) i /Applications/MAMP/htdocs/inlamning2/wp-content/plugins/martin-plugin.php på rad 13
+
+2022-04-27T08:23:30+00:00 CRITICAL Cannot redeclare under_text() (previously declared in /Applications/MAMP/htdocs/inlamning2/wp-content/themes/storefront-child/functions.php:19) i /Applications/MAMP/htdocs/inlamning2/wp-content/plugins/martin-plugin.php på rad 13
+
+2022-04-27T08:23:30+00:00 CRITICAL Cannot redeclare under_text() (previously declared in /Applications/MAMP/htdocs/inlamning2/wp-content/themes/storefront-child/functions.php:19) i /Applications/MAMP/htdocs/inlamning2/wp-content/plugins/martin-plugin.php på rad 13
+
+2022-04-27T11:31:57+00:00 CRITICAL Cannot redeclare min_script_laddare() (previously declared in /Applications/MAMP/htdocs/inlamning2/wp-content/plugins/martin-plugin.php:13) i /Applications/MAMP/htdocs/inlamning2/wp-content/themes/storefront-child/functions.php på rad 47
+

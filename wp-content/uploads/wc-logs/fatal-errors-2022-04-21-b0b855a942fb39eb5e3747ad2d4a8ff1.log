@@ -1,0 +1,56 @@
+2022-04-21T09:56:52+00:00 CRITICAL syntax error, unexpected ',', expecting :: (T_PAAMAYIM_NEKUDOTAYIM) i /Applications/MAMP/htdocs/Inlämning2/wp-content/themes/storefront-child/functions.php på rad 46
+
+2022-04-21T11:30:59+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_total() on null in /Applications/MAMP/htdocs/Inlämning2/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-button/src/Assets/SmartButton.php:1127
+Stack trace:
+#0 /Applications/MAMP/htdocs/Inlämning2/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-button/src/Assets/SmartButton.php(378): WooCommerce\PayPalCommerce\Button\Assets\SmartButton->is_cart_price_total_zero()
+#1 /Applications/MAMP/htdocs/Inlämning2/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-button/src/Assets/SmartButton.php(195): WooCommerce\PayPalCommerce\Button\Assets\SmartButton->render_button_wrapper_registrar()
+#2 /Applications/MAMP/htdocs/Inlämning2/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-button/src/ButtonModule.php(56): WooCommerce\PayPalCommerce\Button\Assets\SmartButton->render_wrapper()
+#3 /Applications/MAMP/htdocs/Inlämning2/wp-includes/class-wp-hook.php(307): WooCommerce\PayPalCommerce\Button\ButtonModule::WooCommer i /Applications/MAMP/htdocs/Inlämning2/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-button/src/Assets/SmartButton.php på rad 1127
+
+2022-04-21T11:31:31+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_total() on null in /Applications/MAMP/htdocs/Inlämning2/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-button/src/Assets/SmartButton.php:1127
+Stack trace:
+#0 /Applications/MAMP/htdocs/Inlämning2/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-button/src/Assets/SmartButton.php(378): WooCommerce\PayPalCommerce\Button\Assets\SmartButton->is_cart_price_total_zero()
+#1 /Applications/MAMP/htdocs/Inlämning2/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-button/src/Assets/SmartButton.php(195): WooCommerce\PayPalCommerce\Button\Assets\SmartButton->render_button_wrapper_registrar()
+#2 /Applications/MAMP/htdocs/Inlämning2/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-button/src/ButtonModule.php(56): WooCommerce\PayPalCommerce\Button\Assets\SmartButton->render_wrapper()
+#3 /Applications/MAMP/htdocs/Inlämning2/wp-includes/class-wp-hook.php(307): WooCommerce\PayPalCommerce\Button\ButtonModule::WooCommer i /Applications/MAMP/htdocs/Inlämning2/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-button/src/Assets/SmartButton.php på rad 1127
+
+2022-04-21T13:19:19+00:00 CRITICAL Uncaught Error: Call to a member function get_total() on null in /Applications/MAMP/htdocs/Inlämning2/wp-content/themes/storefront-child/woocommerce/checkout/payment.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/Inlämning2/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/Inlämning2/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2345): wc_get_template('checkout/paymen...', Array)
+#2 /Applications/MAMP/htdocs/Inlämning2/wp-includes/class-wp-hook.php(307): woocommerce_checkout_payment('')
+#3 /Applications/MAMP/htdocs/Inlämning2/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /Applications/MAMP/htdocs/Inlämning2/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /Applications/MAMP/htdocs/Inlämning2/wp-content/themes/storefront-child/woocommerce/checkout/form-checkout.php(59): do_action('woocommerce_che...')
+#6 /Applications/MAMP/htdocs/Inlämning2/wp-content/plugins/woocommerce/includes i /Applications/MAMP/htdocs/Inlämning2/wp-content/themes/storefront-child/woocommerce/checkout/payment.php på rad 49
+
+2022-04-21T13:20:23+00:00 CRITICAL Uncaught Error: Call to a member function get_total() on null in /Applications/MAMP/htdocs/Inlämning2/wp-content/themes/storefront-child/woocommerce/checkout/payment.php:49
+Stack trace:
+#0 /Applications/MAMP/htdocs/Inlämning2/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/Inlämning2/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2345): wc_get_template('checkout/paymen...', Array)
+#2 /Applications/MAMP/htdocs/Inlämning2/wp-includes/class-wp-hook.php(307): woocommerce_checkout_payment('')
+#3 /Applications/MAMP/htdocs/Inlämning2/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /Applications/MAMP/htdocs/Inlämning2/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /Applications/MAMP/htdocs/Inlämning2/wp-content/themes/storefront-child/woocommerce/checkout/form-checkout.php(59): do_action('woocommerce_che...')
+#6 /Applications/MAMP/htdocs/Inlämning2/wp-content/plugins/woocommerce/includes i /Applications/MAMP/htdocs/Inlämning2/wp-content/themes/storefront-child/woocommerce/checkout/payment.php på rad 49
+
+2022-04-21T13:21:09+00:00 CRITICAL Uncaught Error: Call to a member function get_total() on null in /Applications/MAMP/htdocs/Inlämning2/wp-content/themes/storefront-child/woocommerce/checkout/payment.php:24
+Stack trace:
+#0 /Applications/MAMP/htdocs/Inlämning2/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/Inlämning2/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2345): wc_get_template('checkout/paymen...', Array)
+#2 /Applications/MAMP/htdocs/Inlämning2/wp-includes/class-wp-hook.php(307): woocommerce_checkout_payment('')
+#3 /Applications/MAMP/htdocs/Inlämning2/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /Applications/MAMP/htdocs/Inlämning2/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /Applications/MAMP/htdocs/Inlämning2/wp-content/themes/storefront-child/woocommerce/checkout/form-checkout.php(59): do_action('woocommerce_che...')
+#6 /Applications/MAMP/htdocs/Inlämning2/wp-content/plugins/woocommerce/includes i /Applications/MAMP/htdocs/Inlämning2/wp-content/themes/storefront-child/woocommerce/checkout/payment.php på rad 24
+
+2022-04-21T13:21:55+00:00 CRITICAL Uncaught Error: Call to a member function get_total() on null in /Applications/MAMP/htdocs/Inlämning2/wp-content/themes/storefront-child/woocommerce/checkout/payment.php:24
+Stack trace:
+#0 /Applications/MAMP/htdocs/Inlämning2/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /Applications/MAMP/htdocs/Inlämning2/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2345): wc_get_template('checkout/paymen...', Array)
+#2 /Applications/MAMP/htdocs/Inlämning2/wp-includes/class-wp-hook.php(307): woocommerce_checkout_payment('')
+#3 /Applications/MAMP/htdocs/Inlämning2/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /Applications/MAMP/htdocs/Inlämning2/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /Applications/MAMP/htdocs/Inlämning2/wp-content/themes/storefront-child/woocommerce/checkout/form-checkout.php(59): do_action('woocommerce_che...')
+#6 /Applications/MAMP/htdocs/Inlämning2/wp-content/plugins/woocommerce/includes i /Applications/MAMP/htdocs/Inlämning2/wp-content/themes/storefront-child/woocommerce/checkout/payment.php på rad 24
+
